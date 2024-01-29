@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrowFunctions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copyObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/develhope.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esercizio10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esercizio10b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esercizio11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esercizio14.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esercizio18.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esercizio19.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esercizio22.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esercizio3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esercizio4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esercizio5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esercizio8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eserciziopari.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eserciziotemposerena.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formenodieci" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logmenodieci.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logsomma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objectFreez.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paripro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prova.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sayHelloprova.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worro1.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.21.6" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="qgybsdhx" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ag0g6qdJq91r7WWPayV361mVOX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Go Build.go build array.go.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.array.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.arrowFunctions.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.copyObject.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio11.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio14.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio18.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio19.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio22.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio4.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio5.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.eserciziopari.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.eserciziotemposerena.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.functions1.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.logmenodieci.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.logsomma.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.objectFreez.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.paripro.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.sayHelloprova.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JavaScript&quot;
+    ]
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="node esercizio4.js" />
+      <command value="node esercizio5.js" />
+      <command value="node eserciziotemposerena.js" />
+      <command value="node esercizio11.js" />
+      <command value="node esercizio14.js" />
+      <command value="node esercizio19.js" />
+      <command value="node esercizio18.js" />
+      <command value="node esercizio22.js" />
+      <command value="node eserciziopari.js" />
+      <command value="node paripro.js" />
+      <command value="node logmenodieci.js" />
+      <command value="node logsomma.js" />
+      <command value="node functions1.js" />
+      <command value="node arrowFunctions.js" />
+      <command value="node copyObject.js" />
+      <command value="node objectFreez.js" />
+      <command value="node sayHelloprova.js" />
+      <command value="rustic array.rs" />
+      <command value="rustc array.rs ./main" />
+      <command value="rustc array.rs main" />
+      <command value="array" />
+      <command value="rustc array.rs" />
+      <command value="./array" />
+      <command value="node array.js" />
+      <command value="node test.js" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.test.js">
+    <configuration name="array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="copyObject.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/copyObject.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="objectFreez.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/objectFreez.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="sayHelloprova.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/sayHelloprova.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.array.js" />
+        <item itemvalue="Node.js.sayHelloprova.js" />
+        <item itemvalue="Node.js.objectFreez.js" />
+        <item itemvalue="Node.js.copyObject.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="" />
+      <created>1704725022349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704725022349</updated>
+      <workItem from="1704725023408" duration="1636000" />
+      <workItem from="1704792642762" duration="1992000" />
+      <workItem from="1704816463316" duration="3252000" />
+      <workItem from="1704893249618" duration="1179000" />
+      <workItem from="1704905498414" duration="42000" />
+      <workItem from="1704966827022" duration="2643000" />
+      <workItem from="1705310779194" duration="2440000" />
+      <workItem from="1705332472688" duration="781000" />
+      <workItem from="1705399952491" duration="1733000" />
+      <workItem from="1705484785739" duration="3177000" />
+      <workItem from="1705591994585" duration="1040000" />
+      <workItem from="1705655146809" duration="340000" />
+      <workItem from="1705827375211" duration="86000" />
+      <workItem from="1706533581832" duration="192000" />
+      <workItem from="1706534565143" duration="420000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
