@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="2nd ex">
-      <change afterPath="$PROJECT_DIR$/cardExercise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="3rd">
+      <change afterPath="$PROJECT_DIR$/navBarExercise.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711289978461</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3rd">
+      <option name="closed" value="true" />
+      <created>1711290916659</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711290916659</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +311,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first css ex" />
     <MESSAGE value="2nd ex" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd ex" />
+    <MESSAGE value="3rd" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

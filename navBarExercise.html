@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>CSS Transformed Properties</title>
+    <style>
+        body {
+            background-color: black;
+            color: #f0f8ff;
+        }
+
+        header {
+            background-color: black;
+            color: #f0f8ff;
+            padding: 10px;
+        }
+
+        nav {
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a[disabled] {
+            color: gray;
+        }
+
+        select {
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            padding: 5px;
+        }
+
+        form input[type="search"] {
+            padding: 5px;
+            margin-right: 5px;
+        }
+
+        button {
+            padding: 5px 10px;
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <nav>Navbar
+        <ul>
+            <a href="/html/">Home</a>
+            <a href="/css/">Link</a>
+            <a href="#" disabled="disabled">Disabled</a>
+            <select name="dropdown-links">
+                <option value="none">Dropdown</option>
+                <option value="one">Element 1</option>
+                <option value="two">Element 2</option>
+                <option value="three">Element 3</option>
+            </select>
+            <form action="/search?" method="post">
+                <input type="search" placeholder="Search">
+                <button type="submit">Search</button>
+            </form>
+        </ul>
+    </nav>
+</header>
+
+<main></main>
+
+</body>
+
+</html>
+
