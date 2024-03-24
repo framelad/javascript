@@ -1,0 +1,33 @@
+
+blockquote {
+	background-color: rgba(0, 0, 0, .12);
+	padding: 8px;
+}
+
+
+
+p:first-of-type::first-letter {
+	float: left;
+	color: darkred;
+	border: 3px ridge darkgoldenrod;
+	padding: 16px;
+	background-color: gold;
+	margin: 8px;
+}
+
+blockquote:before,
+blockquote:after {
+	content: '"';
+}
+
+a {
+	color: blue;
+}
+
+a:hover {
+	color: red;
+}
+
+a:visited {
+	color: purple;
+}
