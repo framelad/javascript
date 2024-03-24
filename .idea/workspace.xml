@@ -4,41 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrowFunctions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copyObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/develhope.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esercizio10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esercizio10b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esercizio11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esercizio14.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esercizio18.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esercizio19.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esercizio22.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esercizio3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esercizio4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esercizio5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esercizio8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eserciziopari.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eserciziotemposerena.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formenodieci" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logmenodieci.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logsomma.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objectFreez.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paripro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prova.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sayHelloprova.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worro1.js" afterDir="false" />
+    <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="2nd ex">
+      <change afterPath="$PROJECT_DIR$/cardExercise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +32,54 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "framelad"
+  }
+}]]></component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1711283194" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="javascript" />
+                    <option name="lastUsedInstant" value="1711282928" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="73c6c6df-93a8-4634-8e82-e9623f664dc8" />
+        <option name="url" value="https://github.com/framelad/javascript.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="qgybsdhx" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="false" />
@@ -75,6 +87,9 @@
     <option name="mySelectedFileTypes">
       <set />
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -87,50 +102,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Go Build.go build array.go.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.array.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.arrowFunctions.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.copyObject.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.esercizio11.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.esercizio14.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.esercizio18.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.esercizio19.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.esercizio22.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.esercizio4.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.esercizio5.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.eserciziopari.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.eserciziotemposerena.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.functions1.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.logmenodieci.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.logsomma.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.objectFreez.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.paripro.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.sayHelloprova.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Go Build.go build array.go.executor": "Run",
+    "Node.js.array.js.executor": "Run",
+    "Node.js.arrowFunctions.js.executor": "Run",
+    "Node.js.copyObject.js.executor": "Run",
+    "Node.js.esercizio11.js.executor": "Run",
+    "Node.js.esercizio14.js.executor": "Run",
+    "Node.js.esercizio18.js.executor": "Run",
+    "Node.js.esercizio19.js.executor": "Run",
+    "Node.js.esercizio22.js.executor": "Run",
+    "Node.js.esercizio4.js.executor": "Run",
+    "Node.js.esercizio5.js.executor": "Run",
+    "Node.js.eserciziopari.js.executor": "Run",
+    "Node.js.eserciziotemposerena.js.executor": "Run",
+    "Node.js.functions1.js.executor": "Run",
+    "Node.js.logmenodieci.js.executor": "Run",
+    "Node.js.logsomma.js.executor": "Run",
+    "Node.js.objectFreez.js.executor": "Run",
+    "Node.js.paripro.js.executor": "Run",
+    "Node.js.sayHelloprova.js.executor": "Run",
+    "Node.js.test.js.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "app.teamhub.github.com/framelad/javascript-options": "{\"modifiedIn\":\"Last3Months\",\"forks\":true}",
+    "app.teamhub.selectedTeam": "github.com/framelad/javascript",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JavaScript&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JavaScript"
     ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="node esercizio4.js" />
@@ -161,6 +183,23 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.test.js">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="develhope-js" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="develhope-js" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <configuration name="array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -189,6 +228,13 @@
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -213,6 +259,15 @@
       <workItem from="1706533581832" duration="192000" />
       <workItem from="1706534565143" duration="420000" />
     </task>
+    <task id="LOCAL-00001" summary="2nd ex">
+      <option name="closed" value="true" />
+      <created>1711289978461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711289978461</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +300,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first css ex" />
+    <MESSAGE value="2nd ex" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd ex" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
