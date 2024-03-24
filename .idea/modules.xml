@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/develhope.iml" filepath="$PROJECT_DIR$/develhope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/develhope-js.iml" filepath="$PROJECT_DIR$/.idea/develhope-js.iml" />
     </modules>
   </component>
 </project>
