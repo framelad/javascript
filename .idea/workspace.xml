@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="4th">
-      <change afterPath="$PROJECT_DIR$/css-sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/develhope-js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/develhope-js.iml" afterDir="false" />
+    <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="more">
+      <change afterPath="$PROJECT_DIR$/dom1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flexboxproperties.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flexboxproperties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flexboxproperties.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flexboxproperties.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,54 +106,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Go Build.go build array.go.executor": "Run",
-    "Node.js.array.js.executor": "Run",
-    "Node.js.arrowFunctions.js.executor": "Run",
-    "Node.js.copyObject.js.executor": "Run",
-    "Node.js.esercizio11.js.executor": "Run",
-    "Node.js.esercizio14.js.executor": "Run",
-    "Node.js.esercizio18.js.executor": "Run",
-    "Node.js.esercizio19.js.executor": "Run",
-    "Node.js.esercizio22.js.executor": "Run",
-    "Node.js.esercizio4.js.executor": "Run",
-    "Node.js.esercizio5.js.executor": "Run",
-    "Node.js.eserciziopari.js.executor": "Run",
-    "Node.js.eserciziotemposerena.js.executor": "Run",
-    "Node.js.functions1.js.executor": "Run",
-    "Node.js.logmenodieci.js.executor": "Run",
-    "Node.js.logsomma.js.executor": "Run",
-    "Node.js.objectFreez.js.executor": "Run",
-    "Node.js.paripro.js.executor": "Run",
-    "Node.js.sayHelloprova.js.executor": "Run",
-    "Node.js.test.js.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "app.teamhub.github.com/framelad/javascript-options": "{\"modifiedIn\":\"Last3Months\",\"forks\":true}",
-    "app.teamhub.selectedTeam": "github.com/framelad/javascript",
-    "app.teamhub.trackedBranches": "-9fpijv/javascript,-9fpijv/main",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Go Build.go build array.go.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.array.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.arrowFunctions.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.copyObject.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio11.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio14.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio18.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio19.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio22.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio4.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.esercizio5.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.eserciziopari.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.eserciziotemposerena.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.functions1.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.logmenodieci.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.logsomma.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.objectFreez.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.paripro.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.sayHelloprova.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;app.teamhub.github.com/framelad/javascript-options&quot;: &quot;{\&quot;modifiedIn\&quot;:\&quot;Last3Months\&quot;,\&quot;forks\&quot;:true}&quot;,
+    &quot;app.teamhub.selectedTeam&quot;: &quot;github.com/framelad/javascript&quot;,
+    &quot;app.teamhub.trackedBranches&quot;: &quot;-9fpijv/javascript,-9fpijv/main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JavaScript"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JavaScript&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -261,7 +264,11 @@
       <workItem from="1705827375211" duration="86000" />
       <workItem from="1706533581832" duration="192000" />
       <workItem from="1706534565143" duration="420000" />
-      <workItem from="1711358944487" duration="375000" />
+      <workItem from="1711358944487" duration="3495000" />
+      <workItem from="1711375016078" duration="765000" />
+      <workItem from="1711387529229" duration="200000" />
+      <workItem from="1711389230784" duration="130000" />
+      <workItem from="1711454102728" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="2nd ex">
       <option name="closed" value="true" />
@@ -287,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711291748711</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="more">
+      <option name="closed" value="true" />
+      <created>1711359538431</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711359538431</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +342,8 @@
     <MESSAGE value="2nd ex" />
     <MESSAGE value="3rd" />
     <MESSAGE value="4th" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th" />
+    <MESSAGE value="more" />
+    <option name="LAST_COMMIT_MESSAGE" value="more" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+</ul>
+<script>
+    const ul = document.querySelector('ul');
+    const secondChild = ul.children[1];
+
+    console.log('L\'elemento padre di ul:', ul.parentNode);
+    console.log('Il secondo elemento figlio di ul:', secondChild);
+    console.log('L\'elemento fratello successivo del secondo li:', secondChild.nextElementSibling);
+    console.log('L\'elemento fratello precedente del secondo li:', secondChild.previousElementSibling);
+
+    // Aggiungo innerText per visualizzare il testo contenuto nei tag li
+    console.log('Testo contenuto nel secondo li:', secondChild.innerText);
+</script>
+</body>
+
+</html>
