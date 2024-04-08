@@ -1,0 +1,23 @@
+<html>
+<header>
+    <style>
+        .title-color {
+            color:red;
+        }
+    </style>
+</header>
+    <body>
+    <h1 id="title">title</h1>
+    <script>
+        const title=document.querySelector('#title')
+        title.addEventListener('click', ()=> {
+            title.classList.toggle('title-color')
+            const body = document.querySelector('body')
+            const p = document.createElement('p')
+            p.innerText = 'ciao a tutti'
+            body.appendChild(p)
+        })
+
+    </script>
+    </body>
+</html>

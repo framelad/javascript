@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+<h1>Il form di <span class="title-name"></span></h1>
+<div class="form">
+    <label for="email">Email</label>
+    <input type="email" name="email" class="email" placeholder="email">
+    <label for="firstname">Name</label>
+    <input type="text" name="firstname" class="firstname" placeholder="firstname">
+    <label for="lastname">Surname</label>
+    <input type="text" name="lastname" class="lastname" placeholder="lastname">
+</div>
+<button class="btn">Salva</button>
+<p class="printedform"></p>
+<script>//....</script>
+</body>
+<script>
+    const titleName = document.querySelector('.title-name');
+    const firstNameInput = document.querySelector('.firstname');
+    let formData = {};
+
+    // Carica i dati dal local storage
+    if (localStorage.getItem('formData')) {
+        formData = JSON.parse(localStorage.getItem('formData'));
+        firstNameInput.value = formData.firstname || '';
+        titleName.textContent = formData.firstname || '';
+    }
+
+    // Salva i dati nel local storage
+    function saveFormData() {
+        formData.firstname = firstNameInput.value;
+        localStorage.setItem('formData', JSON.stringify(formData));
+    }
+
+    // Aggiorna il paragrafo con i dati del form
+    function updatePrintedForm() {
+        const printedForm = document.querySelector('.printedform');
+        printedForm.textContent = `Email: ${formData.email || ''} Name: ${formData.firstname || ''} Surname: ${formData.lastname || ''}`;
+    }
+
+    // Aggiunge un event listener al bottone "Salva"
+    const saveButton = document.querySelector('.btn');
+    saveButton.addEventListener('click', () => {
+        alert('salvataggio')
+        saveFormData();
+        updatePrintedForm();
+    });
+
+    // Aggiunge un event listener al campo "Name"
+    firstNameInput.addEventListener('input', () => {
+        titleName.textContent = firstNameInput.value || '';
+        saveFormData();
+    });
+
+    // Aggiunge un event listener al caricamento della pagina
+    window.addEventListener('load', () => {
+        updatePrintedForm();
+    });
+</script>
+</html>

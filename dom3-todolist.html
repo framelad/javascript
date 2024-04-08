@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To-Do List</title>
+    <style>
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+<h1>To-Do List</h1>
+<label for="taskInput">task: </label><input type="text" id="taskInput" placeholder="Inserisci un nuovo task">
+<button onclick="addTask()">Aggiungi</button>
+<ul id="taskList"></ul>
+
+<script>
+    function addTask() {
+        const taskInput = document.getElementById('taskInput');
+        const taskText = taskInput.value.trim();
+
+        if (taskText !== '') {
+            const taskList = document.getElementById('taskList');
+            const taskItem = document.createElement('li');
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.addEventListener('change', toggleTaskCompletion);
+
+            const taskLabel = document.createElement('label');
+            taskLabel.textContent = taskText;
+
+            taskItem.appendChild(checkbox);
+            taskItem.appendChild(taskLabel);
+            taskList.appendChild(taskItem);
+
+            taskInput.value = '';
+        }
+    }
+
+    function toggleTaskCompletion(event) {
+        const checkbox = event.target;
+        const taskItem = checkbox.parentNode;
+
+        if (checkbox.checked) {
+            taskItem.classList.add('completed');
+        } else {
+            taskItem.classList.remove('completed');
+        }
+    }
+</script>
+</body>
+</html>

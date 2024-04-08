@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lord of the Rings Card</title>
+</head>
+<body>
+    <div id="card"></div>
+    <button id="fetch-card">Fetch Card</button>
+    <script>
+        const cardContainer = document.getElementById('card');
+        const fetchButton = document.getElementById('fetch-card');
+
+        fetchButton.addEventListener('click', async () => {
+            const cardCode = '01001';
+            const response = await fetch(`https://ringsdb.com/api/public/card/${cardCode}?format=json`);
+            const cardData = await response.json();
+
+            const cardElement = document.createElement('div');
+            cardElement.classList.add('card');
+
+            const cardName = document.createElement('h2');
+            cardName.textContent = cardData.name;
+            cardElement.appendChild(cardName);
+
+            const cardImage = document.createElement('img');
+            cardImage.src = cardData.image;
+            cardElement.appendChild(cardImage);
+
+            cardContainer.innerHTML = '';
+            cardContainer.appendChild(cardElement);
+        });
+    </script>
+</body>
+</html>
