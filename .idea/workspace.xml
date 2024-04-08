@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="more">
-      <change afterPath="$PROJECT_DIR$/dom1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexboxproperties.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexboxproperties.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexboxproperties.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexboxproperties.png" afterDir="false" />
+    <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="flexox and dom">
+      <change afterPath="$PROJECT_DIR$/alpine-todolist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alpine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkModeBtn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dom2-search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dom3-todolist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fibonacci.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/liveDOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localStorage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lordRings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lordRings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/develhope-js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/develhope-js.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +32,6 @@
       </list>
     </option>
   </component>
-  <component name="FormatOnSaveOptions">
-    <option name="myRunOnSave" value="false" />
-    <option name="myAllFileTypesSelected" value="true" />
-    <option name="mySelectedFileTypes">
-      <set />
-    </option>
-  </component>
   <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.21.6" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +42,10 @@
     &quot;assignee&quot;: &quot;framelad&quot;
   }
 }</component>
+  <component name="GitLabServerManager">
+    <selected>-1</selected>
+    <servers />
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
@@ -68,14 +72,12 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="73c6c6df-93a8-4634-8e82-e9623f664dc8" />
-        <option name="url" value="https://github.com/framelad/javascript.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/framelad/javascript.git&quot;,
+    &quot;accountId&quot;: &quot;73c6c6df-93a8-4634-8e82-e9623f664dc8&quot;
+  }
+}</component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
@@ -84,13 +86,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="OptimizeOnSaveOptions">
-    <option name="myRunOnSave" value="false" />
-    <option name="myAllFileTypesSelected" value="true" />
-    <option name="mySelectedFileTypes">
-      <set />
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -122,6 +117,7 @@
     &quot;Node.js.esercizio5.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.eserciziopari.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.eserciziotemposerena.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.fibonacci.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.functions1.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.logmenodieci.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.logsomma.js.executor&quot;: &quot;Run&quot;,
@@ -145,7 +141,10 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;org.rust.first.attach.projects.stats&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -186,9 +185,10 @@
       <command value="./array" />
       <command value="node array.js" />
       <command value="node test.js" />
+      <command value="node fibonacci.js" />
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.test.js">
+  <component name="RunManager" selected="Node.js.fibonacci.js">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="develhope-js" />
       <working_directory value="$PROJECT_DIR$" />
@@ -209,7 +209,7 @@
     <configuration name="array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="copyObject.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/copyObject.js" working-dir="$PROJECT_DIR$">
+    <configuration name="fibonacci.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/fibonacci.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="objectFreez.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/objectFreez.js" working-dir="$PROJECT_DIR$">
@@ -223,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.fibonacci.js" />
         <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.array.js" />
         <item itemvalue="Node.js.sayHelloprova.js" />
         <item itemvalue="Node.js.objectFreez.js" />
-        <item itemvalue="Node.js.copyObject.js" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +237,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -268,7 +269,21 @@
       <workItem from="1711375016078" duration="765000" />
       <workItem from="1711387529229" duration="200000" />
       <workItem from="1711389230784" duration="130000" />
-      <workItem from="1711454102728" duration="717000" />
+      <workItem from="1711454102728" duration="2941000" />
+      <workItem from="1711547772390" duration="1023000" />
+      <workItem from="1711549262524" duration="2219000" />
+      <workItem from="1711580624881" duration="353000" />
+      <workItem from="1711596597723" duration="242000" />
+      <workItem from="1711645192426" duration="2446000" />
+      <workItem from="1711707858906" duration="539000" />
+      <workItem from="1712225982010" duration="979000" />
+      <workItem from="1712236640181" duration="658000" />
+      <workItem from="1712309407368" duration="260000" />
+      <workItem from="1712526381280" duration="512000" />
+      <workItem from="1712527921298" duration="1268000" />
+      <workItem from="1712530632735" duration="193000" />
+      <workItem from="1712530933572" duration="254000" />
+      <workItem from="1712531200681" duration="698000" />
     </task>
     <task id="LOCAL-00001" summary="2nd ex">
       <option name="closed" value="true" />
@@ -302,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711359538431</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="flexox and dom">
+      <option name="closed" value="true" />
+      <created>1711456055324</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711456055324</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +347,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="javascript" />
                       </list>
                     </value>
                   </entry>
@@ -343,7 +366,8 @@
     <MESSAGE value="3rd" />
     <MESSAGE value="4th" />
     <MESSAGE value="more" />
-    <option name="LAST_COMMIT_MESSAGE" value="more" />
+    <MESSAGE value="flexox and dom" />
+    <option name="LAST_COMMIT_MESSAGE" value="flexox and dom" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

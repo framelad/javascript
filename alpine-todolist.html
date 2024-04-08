@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{ tasks: [], newTask: '' }">
+<head>
+    <title>To-Do List</title>
+    <style>
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+    </style>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body>
+<h1>To-Do List</h1>
+<label for="taskInput">task: </label>
+    <input type="text" id="taskInput" x-model="newTask" placeholder="Inserisci un nuovo task"
+           @keydown.enter="addTask()"
+    >
+<button @click="addTask()">Aggiungi</button>
+<ul id="taskList">
+    <template x-for="task in tasks">
+        <li :class="{ 'completed': task.completed }">
+                <input type="checkbox" x-model="task.completed">
+            <span x-text="task.text"></span>
+        </li>
+    </template>
+</ul>
+<script>
+    function addTask() {
+        if (this.newTask.trim() !== '') {
+            this.tasks.push({
+                text: this.newTask.trim(),
+                completed: false
+            });
+            this.newTask = ''; // clear the input field after adding a new task to the list
+        }
+    }
+</script>
+</body>
+</html>

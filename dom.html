@@ -1,0 +1,24 @@
+<script>
+    console.log()
+    console.error()
+    console.groupEnd()
+    console.assert(1===2, 'msg') // stampa solo se condizione e' falsa
+    document.documentElement //tag HTML
+    document.children
+    document.parentElement
+    document.previousSibling
+    document.nextSibling
+    // search
+    const h1 = document.querySelector('.title')
+    console.log( document.querySelectorAll('.paragrafo'));
+    console.log(document.getElementById('elemento-3'));
+    console.log(document.querySelectorAll('h2'));
+
+    h1.innerHTML // change node html code
+    h1.innerText // change node contained text
+    // change dom
+    h1.classList.add('textRed')
+    h1.classList.remove('textRed')
+    h1.classList.contains('textRed')
+
+</script>
