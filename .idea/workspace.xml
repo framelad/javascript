@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="flexox and dom">
-      <change afterPath="$PROJECT_DIR$/alpine-todolist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alpine.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/darkModeBtn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dom2-search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dom3-todolist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fibonacci.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liveDOM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localStorage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lordRings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lordRings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/develhope-js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/develhope-js.iml" afterDir="false" />
+    <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="dom exercises">
+      <change afterPath="$PROJECT_DIR$/dom4-form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveDOM.html" beforeDir="false" afterPath="$PROJECT_DIR$/domLive.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +273,10 @@
       <workItem from="1712527921298" duration="1268000" />
       <workItem from="1712530632735" duration="193000" />
       <workItem from="1712530933572" duration="254000" />
-      <workItem from="1712531200681" duration="698000" />
+      <workItem from="1712531200681" duration="1385000" />
+      <workItem from="1712572224464" duration="290000" />
+      <workItem from="1712602096614" duration="458000" />
+      <workItem from="1712650993519" duration="1303000" />
     </task>
     <task id="LOCAL-00001" summary="2nd ex">
       <option name="closed" value="true" />
@@ -325,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711456055324</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dom exercises">
+      <option name="closed" value="true" />
+      <created>1712564341515</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712564341515</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +368,8 @@
     <MESSAGE value="4th" />
     <MESSAGE value="more" />
     <MESSAGE value="flexox and dom" />
-    <option name="LAST_COMMIT_MESSAGE" value="flexox and dom" />
+    <MESSAGE value="dom exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="dom exercises" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
