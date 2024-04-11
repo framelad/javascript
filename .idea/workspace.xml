@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="dom exercises">
+    <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="dom exercises 2 redone">
+      <change afterPath="$PROJECT_DIR$/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlExArticle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom2-search.html" beforeDir="false" afterPath="$PROJECT_DIR$/dom2-search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +280,7 @@
       <workItem from="1712650993519" duration="3065000" />
       <workItem from="1712655721357" duration="105000" />
       <workItem from="1712666369959" duration="1006000" />
-      <workItem from="1712840978598" duration="537000" />
+      <workItem from="1712840978598" duration="1258000" />
     </task>
     <task id="LOCAL-00001" summary="2nd ex">
       <option name="closed" value="true" />
@@ -344,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712841121234</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dom exercises 2 redone">
+      <option name="closed" value="true" />
+      <created>1712841797764</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712841797764</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +397,8 @@
     <MESSAGE value="more" />
     <MESSAGE value="flexox and dom" />
     <MESSAGE value="dom exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="dom exercises" />
+    <MESSAGE value="dom exercises 2 redone" />
+    <option name="LAST_COMMIT_MESSAGE" value="dom exercises 2 redone" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
