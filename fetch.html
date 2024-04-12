@@ -1,0 +1,49 @@
+<html>
+    <body>
+    <style>
+        #container {
+            background: #a00;
+        }
+        #container card {
+            background: #8ffda7;
+            padding: 20px;
+        }
+    </style>
+    <div id="container">
+
+    </div>
+    <script>
+        const container = document.getElementById('container')
+        // let p = document.createElement('p')
+        // p.innerText = 'ciao'
+        // container.appendChild(p)
+
+        async function getData(url) {
+            let data;
+            try {
+                const res = await fetch(url)
+                const data = await res.json()
+
+                const filteredData = data.filter(element => {
+                    if(element.completed)
+                        return element
+                })
+
+
+                filteredData.forEach(element => {
+                    const card = document.createElement('card')
+                    card.innerHTML =
+                        `<h3>${element.id}</h3>
+                        <p>${element.title}</p>
+                        `
+                    container.appendChild(card)
+                })
+            } catch (e) {
+
+            }
+        }
+
+        getData('https://jsonplaceholder.typicode.com/todos')
+    </script>
+    </body>
+</html>
