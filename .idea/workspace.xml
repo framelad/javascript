@@ -5,10 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e98dd79-bff5-40fd-ab51-547f42b0ce43" name="Changes" comment="dom exercises 2 redone">
-      <change afterPath="$PROJECT_DIR$/grid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grid.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htmlExArticle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPoint/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPoint/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPoint/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPoint/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPoint/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPoint/_package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPoint/check.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPoint/checkPoint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPoint/checkPoint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPoint/checkPoint.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPoint/checkPoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPoint/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPoint/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-grid-properties/GridProperties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-grid-properties/GridProperties.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-grid-properties/GridProperties.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-grid-properties/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary/dictionary.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary/dictionary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary/dictionary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary/dictionary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/webpack-detective.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/webpack.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/webpack1-api-axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/develhope-js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/develhope-js.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esercizio11.js" beforeDir="false" afterPath="$PROJECT_DIR$/esercizio11.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +46,23 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
     </option>
   </component>
   <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.21.6" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -33,35 +71,8 @@
     &quot;assignee&quot;: &quot;framelad&quot;
   }
 }</component>
-  <component name="GitLabServerManager">
-    <selected>-1</selected>
-    <servers />
-  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
-    <option name="recentBranches">
-      <RecentBranches>
-        <option name="branchesForRepo">
-          <list>
-            <RecentBranchesForRepo>
-              <option name="branches">
-                <list>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1711283194" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="javascript" />
-                    <option name="lastUsedInstant" value="1711282928" />
-                  </RecentBranch>
-                </list>
-              </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
-            </RecentBranchesForRepo>
-          </list>
-        </option>
-      </RecentBranches>
-    </option>
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -75,11 +86,12 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="qgybsdhx" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -120,22 +132,30 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;app.teamhub.github.com/framelad/javascript-options&quot;: &quot;{\&quot;modifiedIn\&quot;:\&quot;Last3Months\&quot;,\&quot;forks\&quot;:true}&quot;,
     &quot;app.teamhub.selectedTeam&quot;: &quot;github.com/framelad/javascript&quot;,
     &quot;app.teamhub.trackedBranches&quot;: &quot;-9fpijv/javascript,-9fpijv/main&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;javascript&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;21.5.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.12.7&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.install axios.executor&quot;: &quot;Run&quot;,
+    &quot;npm.install webpack -d.executor&quot;: &quot;Run&quot;,
+    &quot;npm.install webpack.executor&quot;: &quot;Run&quot;,
     &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
     &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
     &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
     &quot;org.rust.first.attach.projects.stats&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -177,6 +197,9 @@
       <command value="node array.js" />
       <command value="node test.js" />
       <command value="node fibonacci.js" />
+      <command value="npm install webpack -d" />
+      <command value="yarn add axios" />
+      <command value="yarn add webpack" />
     </option>
   </component>
   <component name="RunManager" selected="Node.js.fibonacci.js">
@@ -200,13 +223,13 @@
     <configuration name="array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="fetch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/fetch.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="fibonacci.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/fibonacci.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="objectFreez.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/objectFreez.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="sayHelloprova.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/sayHelloprova.js" working-dir="$PROJECT_DIR$">
+    <configuration name="fibonacci.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/fibonacci.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
@@ -217,8 +240,6 @@
         <item itemvalue="Node.js.fibonacci.js" />
         <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.array.js" />
-        <item itemvalue="Node.js.sayHelloprova.js" />
-        <item itemvalue="Node.js.objectFreez.js" />
       </list>
     </recent_temporary>
   </component>
@@ -281,6 +302,8 @@
       <workItem from="1712655721357" duration="105000" />
       <workItem from="1712666369959" duration="1006000" />
       <workItem from="1712840978598" duration="1258000" />
+      <workItem from="1713197542116" duration="2164000" />
+      <workItem from="1713254858513" duration="465000" />
     </task>
     <task id="LOCAL-00001" summary="2nd ex">
       <option name="closed" value="true" />
@@ -376,7 +399,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="javascript" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
