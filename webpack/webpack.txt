@@ -1,0 +1,13 @@
+A module bundler is a tool that takes pieces of JavaScript and their dependencies and bundles them into a single file, usually for use in the browser. Examples: Browserify, Webpack, Rollup.
+
+There are two main stages of a bundler:
+
+    Dependency resolution
+    Packing
+
+
+    Detective is a library that can “find all calls to require() no matter how deeply nested”, and using it means we can avoid doing our own AST traversal!
+    https://github.com/browserify/detective
+
+
+     the compression-webpack-plugin compresses all the JavaScript files before serving them to the browser. There are several plugins such as AggressiveSplittingPlugin, CommonsChunkPlugin, 18nWebpackPlugin and many more.

@@ -8,7 +8,7 @@ const firstYearCompleted = true;
 const yearsCompleted = 1;
 
 // 3 comparazioni che restituiscono true
-console.log(firstName != lastname);
+console.log(firstName !== lastname);
 console.log(age >= average);
 console.log(firstYearCompleted);
 

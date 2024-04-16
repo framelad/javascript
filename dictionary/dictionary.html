@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary setti</title>
+  <link rel="stylesheet" href="dictionary.css">
+</head>
+<body>
+<form id="dictionaryForm">
+    <label for="wordInput">Enter a word:</label>
+    <input type="text" id="wordInput" name="word" required>
+    <button type="submit">Search</button>
+</form>
+<div id="container"></div>
+</body>
+<script>
+    document.getElementById('dictionaryForm').addEventListener('submit', async function(event) {
+        event.preventDefault();
+        const word = document.getElementById('wordInput').value;
+        await loadWord(word);
+    })
+</script>
+<script src="dictionary.js"></script>
+</html>
