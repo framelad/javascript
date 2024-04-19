@@ -1,0 +1,5 @@
+useState : a hook that lets you manage the state of a component;
+useEffect : a hook that lets you run side effects in a component;
+useContext : a hook that lets you access the value of a context;
+useRef : a hook that lets you access the DOM node of a component;
+useMemo : a hook that lets you memoize expensive computations;
